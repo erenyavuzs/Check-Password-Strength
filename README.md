@@ -38,17 +38,18 @@ pip install zxcvbn
 
 ## Example Output
 For a single password: <br>
-
+```bash
 [?] Enter your password: 
 Value: 123456
 Password Score: 0/4
 Crack Time: less than a second
 Feedback: ['Add another word or two. Uncommon words are better.']
+```
 
 <br>
 
 For multiple passwords: <br>
-
+```bash
 Value: aeds_7543
 Password Score: 3/4
 Crack Time: 3 hours
@@ -69,8 +70,10 @@ Value: 12345678
 Password Score: 0/4
 Crack Time: less than a second
 Feedback: ['Add another word or two. Uncommon words are better.']
+```
 
 <br>
+
 ## Notes 
 
 • Ensure your password file has one password per line.
