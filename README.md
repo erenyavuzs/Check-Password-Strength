@@ -1,4 +1,4 @@
-# Password Strength Tester
+# Check Password Strength
 
 This Python script evaluates the strength of passwords using the `zxcvbn` module. It provides detailed feedback on password strength, estimated crack time, and suggestions for improvement. The script can analyze either a single password entered by the user or multiple passwords provided in a file.
 
